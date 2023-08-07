@@ -5,14 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8254160d-ec28-4ab6-a032-acef02101afb" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/OgarnizerAPIApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/AwayWorkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/ServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/AwayWorkDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/AwayWorksDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/mapper/AwayWorkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/AwayWorkEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/ClientEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/PriorityEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/RoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/ServiceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/StageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/repository/AwayWorkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/repository/ServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_10__init_ogarnizer_closed_service.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_11__init_ogarnizer_role.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_1__init_ogarnizer_client.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__init_ogarnizer_user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__init_ogarnizer_priority.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_4__init_ogarnizer_stage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_5__init_ogarnizer_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_6__init_ogarnizer_closed_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_7__init_ogarnizer_away_work.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_8__init_ogarnizer_closed_away_work.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_9__init_ogarnizer_service.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_1__init_example_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_2__init_example_data_2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ogarnizerAPI.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +87,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,19 +101,47 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2TfBnjfaHEmPisqjYmqSOqBzhnQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/ZAJAVKA/WARSZTAT 21 SPRING REST/64b67c64bfd3e100240dfa47-w21-project-1-car-dealership-solutions&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/ZAJAVKA/PROJEKT/ogarnizerAPI/src/main/resources/db/migration"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\resources\db\migration" />
+      <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\java\pl\ogarnizer\infrastructure\database\entity" />
+      <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\java\pl\ogarnizer\business" />
+      <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\java\pl\ogarnizer\business\dao" />
+      <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\java\pl\ogarnizer\domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.ogarnizer.infrastructure.database.repository" />
+      <recent name="pl.ogarnizer.infrastructure.database.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OgarnizerAPIApplication">
+    <configuration name="OgarnizerAPIApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.ogarnizer.OgarnizerAPIApplication" />
+      <module name="zajavka_ogarnizerAPI.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.ogarnizer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ogarnizerAPI [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -98,6 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OgarnizerAPIApplication" />
         <item itemvalue="Gradle.ogarnizerAPI [build]" />
       </list>
     </recent_temporary>
@@ -118,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691424466353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1691430199335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691430199335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
