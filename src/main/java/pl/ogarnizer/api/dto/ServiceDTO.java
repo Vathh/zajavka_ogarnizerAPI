@@ -9,15 +9,13 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AwayWorkDTO {
-
-    private Integer awayWorkId;
+public class ServiceDTO {
+    private Integer serviceId;
     private UserDTO creatingUser;
     private LocalDateTime createdDate;
     private PriorityDTO priority;
     private ClientDTO client;
     private String description;
-    private String place;
     private String device;
     private String additionalInfo;
     private String updateInfo;
