@@ -1,8 +1,6 @@
 package pl.ogarnizer.api.dto;
 
-import jakarta.validation.constraints.Pattern;
 import lombok.*;
-import org.hibernate.validator.constraints.Length;
 
 @Data
 @With

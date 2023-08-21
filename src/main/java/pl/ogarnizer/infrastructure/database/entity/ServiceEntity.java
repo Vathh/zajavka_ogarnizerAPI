@@ -21,18 +21,18 @@ public class ServiceEntity {
     @Column(name = "service_id")
     private Integer serviceId;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "created_by_user_id")
     private UserEntity creatingUser;
 
     @Column(name = "created_date")
     private LocalDateTime createdDate;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "priority_id")
     private PriorityEntity priority;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "client_id")
     private ClientEntity client;
 
@@ -48,7 +48,7 @@ public class ServiceEntity {
     @Column(name = "update_info")
     private String updateInfo;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "stage_id")
     private StageEntity stage;
 }
