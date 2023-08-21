@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ServiceDTO {
-    private Integer serviceId;
     private UserDTO creatingUser;
     private LocalDateTime createdDate;
     private PriorityDTO priority;

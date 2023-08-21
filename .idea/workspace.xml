@@ -4,37 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8254160d-ec28-4ab6-a032-acef02101afb" name="Changes" comment="init commit2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/ClientDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/ClientsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/OrdersDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/PriorityDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/RoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/ServiceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/ServicesDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/StageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/mapper/ClientMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/mapper/PriorityMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/mapper/ServiceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/mapper/StageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/repository/PriorityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/repository/StageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drop_all_tables.sql" afterDir="false" />
+    <list default="true" id="8254160d-ec28-4ab6-a032-acef02101afb" name="Changes" comment="app works correctly">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/configuration/BootstrapApplicationComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/configuration/RandomDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/configuration/SpringDocConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/AwayWorkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/AwayWorkController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/ClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/ServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/controller/ServiceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/AwayWorkDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/AwayWorkDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1_10__init_ogarnizer_closed_service.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1_6__init_ogarnizer_closed_order.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1_8__init_ogarnizer_closed_away_work.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2_2__init_example_data_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_2__init_example_data_2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/AwayWorksDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/ClientsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/OrdersDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/PriorityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/PriorityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/ServiceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/ServiceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/ServicesDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/StageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/api/dto/StageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/AwayWorkEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ogarnizer/infrastructure/database/entity/AwayWorkEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2_1__init_example_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_1__init_example_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2_2__init_example_data_2.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,27 +93,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/ZAJAVKA/PROJEKT/ogarnizerAPI/src/main/java/pl/ogarnizer/infrastructure/database/repository/dao"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/ZAJAVKA/PROJEKT/ogarnizer/ogarnizer&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\java\pl\ogarnizer\api\dto" />
       <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\java\pl\ogarnizer\infrastructure\database\repository\dao" />
       <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\resources" />
       <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\resources\db\migration" />
       <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\java\pl\ogarnizer\infrastructure\database\entity" />
-      <recent name="C:\Users\user\Desktop\ZAJAVKA\PROJEKT\ogarnizerAPI\src\main\java\pl\ogarnizer\business" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.ogarnizer.api.dto" />
       <recent name="pl.ogarnizer.infrastructure.database.repository" />
       <recent name="pl.ogarnizer.infrastructure.database.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OgarnizerAPIApplication">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="OgarnizerAPIApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.ogarnizer.OgarnizerAPIApplication" />
       <module name="zajavka_ogarnizerAPI.main" />
@@ -154,10 +149,41 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ogarnizerAPI [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OgarnizerAPIApplication" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Gradle.ogarnizerAPI [build]" />
+        <item itemvalue="Gradle.ogarnizerAPI [clean]" />
+        <item itemvalue="Application.OgarnizerAPIApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691433470183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="app works correctly">
+      <created>1691506028821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691506028821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +241,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="init commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit2" />
+    <MESSAGE value="app works correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="app works correctly" />
   </component>
 </project>

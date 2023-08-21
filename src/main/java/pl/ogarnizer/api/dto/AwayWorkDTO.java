@@ -1,5 +1,6 @@
 package pl.ogarnizer.api.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -10,9 +11,9 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AwayWorkDTO {
-
-    private Integer awayWorkId;
     private UserDTO creatingUser;
+
+    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss", shape = JsonFormat.Shape.STRING)
     private LocalDateTime createdDate;
     private PriorityDTO priority;
     private ClientDTO client;

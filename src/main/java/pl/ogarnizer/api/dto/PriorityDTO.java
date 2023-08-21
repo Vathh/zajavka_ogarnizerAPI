@@ -8,5 +8,6 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PriorityDTO {
+    Integer priorityId;
     String name;
 }

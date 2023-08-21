@@ -1,7 +1,6 @@
 package pl.ogarnizer.api.dto;
 
 import lombok.*;
-import org.hibernate.validator.constraints.Length;
 
 import java.time.LocalDateTime;
 
@@ -11,7 +10,6 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class OrderDTO {
-    private Integer orderId;
     private UserDTO creatingUser;
     private LocalDateTime createdDate;
     private PriorityDTO priority;
