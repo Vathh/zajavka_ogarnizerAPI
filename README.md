@@ -1,6 +1,6 @@
 # zajavka_ogarnizerAPI
 
-REST API umożliwiające pobranie losowych danych na rzecz działania aplikacji zajavka_ogarnizer.
+A REST API that allows fetching random data for the operation of the zajavka_ogarnizer application.
 </br>
 
-Aplikacja umożliwia pobranie obiektów klas away_work, service, order, client.
+The application allows retrieval of objects such as away_work, service, order, and client.
